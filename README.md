@@ -62,7 +62,7 @@ Download the free version of the Enthought Python Distribution (EPD): http://www
 
 Install EPD into the default directory it suggests.
 
-### Updating IPython
+### Update IPython
 
 You now have IPython and most of the libraries you need installed. However, they're mostly older versions, so let's update them real quick.
 
