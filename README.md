@@ -109,10 +109,10 @@ Remember when I had you install the `pandas` library? Here's why: it makes readi
 	from pandas import *
 	
 	# read data from data file into a pandas DataFrame  
-	parasiteData = read_csv("parasite_data.csv", 	# name of the data file
-					sep=",",				# what character separates each column?
-					na_values=["", " "])  		# what values should be considered "blank" values?
-				
+	parasiteData = read_csv("parasite_data.csv", # name of the data file
+					sep=",", # what character separates each column?
+					na_values=["", " "]) # what values should be considered "blank" values?
+
 And there you have it! It reads in the entire file, and you can do all kinds of neat stuff with the data.
 
 	# display the values for the "Virulence" column
@@ -126,3 +126,13 @@ And there you have it! It reads in the entire file, and you can do all kinds of 
 	
 pandas DataFrames have all kinds of methods built in, including a bunch of <a href="http://pandas.pydata.org/pandas-docs/stable/api.html#api-dataframe-stats">statistical functions</a> and <a href="http://pandas.pydata.org/pandas-docs/stable/api.html#id11">plotting functions</a>.
 
+
+## Statistical analysis
+
+If you need to do something fancier than what pandas offers (and most of us do!), there's most likely a Python library for that.
+
+* <a href="http://www.scipy.org/">scipy</a>: a TON of statistics functions. Check my <a href="http://www.randalolson.com/2012/08/06/statistical-analysis-made-easy-in-python/"blog post</a> for some common useful functions (SEM, bootstrapped 95% confidence intervals, MWW RankSum test, ANOVA, etc.).
+
+* <a href="http://statsmodels.sourceforge.net/"statsmodels</a>: linear regression models, generalized linear regression models, etc. Check here if you need to model your data.
+
+* <a href="http://scikit-learn.org/stable/">scikit-learn</a>: anything machine learning, including data clustering and principle component analysis.
