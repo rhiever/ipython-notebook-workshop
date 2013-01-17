@@ -81,11 +81,16 @@ Enter the following commands into the Terminal, one at a time:
 
 Now you should be ready to enjoy IPython Notebook! Enter the following command in the Terminal to fire it up: `ipython notebook --pylab=inline`
 
-# Practice Data
+
+# Practice Statistical Analysis
+
+As a part of this workshop, we're going to do a little statistical analysis on some data to get a feel for what IPython Notebook can do.
+
+## Data file
 
 I have included a data file with this tutorial titled `parasite_data.csv`, courtesy of <a href="http://luiszaman.com/">Luis Zaman</a>. Please note that this is unpublished data, and is **only meant to be used for the purposes of this workshop**. Email Luis directly if you want to use it for something else.
 
-The data has 3 columns:
+The data file has 3 columns:
 
 * Virulence
 
@@ -96,3 +101,28 @@ The data has 3 columns:
 For our purposes, all we care is that the first two columns (`Virulence` and `Replicate`) are the experimental predictors, and the third column (`ShannonDiversity`) is the measured response from the experiment. Thus, we are interested in what effects `Virulence` and/or `Replicate` have on the measured `ShannonDiversity`. Talk to Luis if you want to know more about the data.
 
 What interesting statistical analyses could we do with these data?
+
+## Reading data
+
+Remember when I had you install the `pandas` library? Here's why: it makes reading data files like this ridiculously easy!
+
+	from pandas import *
+	
+	# read data from data file into a pandas DataFrame  
+	parasiteData = read_csv("parasite_data.csv", 	# name of the data file
+				sep=",",		# what character separates each column?
+				na_values=["", " "])  	# what values should be considered "blank" values?
+				
+And there you have it! It reads in the entire file, and you can do all kinds of neat stuff with the data.
+
+	# display the values for the "Virulence" column
+	print parasiteData["Virulence"]
+	
+	# display the values for the "ShannonDiversity" column where "Virulence" == 0.5
+	print parasiteData[parasiteData["Virulence"] == 0.5]["ShannonDiversity"]
+	
+	# display the mean "ShannonDiversity" for the experiments where "Virulence" == 0.7
+	print parasiteData[parasiteData["Virulence"] == 0.7]["ShannonDiversity"].mean()
+	
+pandas DataFrames have all kinds of methods built in, including a bunch of <a href="http://pandas.pydata.org/pandas-docs/stable/api.html#api-dataframe-stats">statistical functions</a> and <a href="http://pandas.pydata.org/pandas-docs/stable/api.html#id11">plotting functions</a>.
+
