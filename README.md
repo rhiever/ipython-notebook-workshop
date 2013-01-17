@@ -133,6 +133,6 @@ If you need to do something fancier than what pandas offers (and most of us do!)
 
 * <a href="http://www.scipy.org/">scipy</a>: a TON of statistics functions. Check my <a href="http://www.randalolson.com/2012/08/06/statistical-analysis-made-easy-in-python/"blog post</a> for some common useful functions (SEM, bootstrapped 95% confidence intervals, MWW RankSum test, ANOVA, etc.).
 
-* <a href="http://statsmodels.sourceforge.net/"statsmodels</a>: linear regression models, generalized linear regression models, etc. Check here if you need to model your data.
+* <a href="http://statsmodels.sourceforge.net/">statsmodels</a>: linear regression models, generalized linear regression models, etc. Check here if you need to model your data.
 
 * <a href="http://scikit-learn.org/stable/">scikit-learn</a>: anything machine learning, including data clustering and principle component analysis.
