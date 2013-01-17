@@ -19,9 +19,9 @@ The `Distribute` library is required for the newer version of IPython Notebook.
 
 Go to http://python-distribute.org/distribute_setup.py
 
-Right-click and save the file to `C:/Users/your-username/`.
+Right-click and save the file to `C:/Users/your-username/`
 
-Open up the Windows Command Prompt and enter the following command: `python distribute_setup.py`.
+Open up the Windows Command Prompt and enter the following command: `python distribute_setup.py`
 
 ### pyreadline library
 
@@ -80,3 +80,19 @@ Enter the following commands into the Terminal, one at a time:
 ### Run IPython Notebook
 
 Now you should be ready to enjoy IPython Notebook! Enter the following command in the Terminal to fire it up: `ipython notebook --pylab=inline`
+
+# Practice Data
+
+I have included a data file with this tutorial titled `parasite_data.csv`, courtesy of <a href="http://luiszaman.com/">Luis Zaman</a>. Please note that this is unpublished data, and is *only meant to be used for the purposes of this workshop*. Email Luis Zaman directly if you want to use it for something else.
+
+The data has 3 columns:
+
+* Virulence
+
+* Replicate
+
+* ShannonDiversity
+
+For our purposes, all we care is that the first two columns (`Virulence` and `Replicate`) are the experimental predictors, and the third column (`ShannonDiversity`) is the measured response from the experiment. Thus, we are interested in what effects `Virulence` and/or `Replicate` have on the measured `ShannonDiversity`. Talk to Luis if you want to know more about the data.
+
+What interesting statistical analyses could we do with these data?
