@@ -86,7 +86,7 @@ Now you should be ready to enjoy IPython Notebook! Enter the following command i
 
 As a part of this workshop, we're going to do a little statistical analysis on some data to get a feel for what IPython Notebook can do.
 
-## Data file
+## Example data file
 
 I have included a data file with this tutorial titled `parasite_data.csv`, courtesy of <a href="http://luiszaman.com/">Luis Zaman</a>. Please note that this is unpublished data, and is **only meant to be used for the purposes of this workshop**. Email Luis directly if you want to use it for something else.
 
@@ -110,8 +110,8 @@ Remember when I had you install the `pandas` library? Here's why: it makes readi
 	
 	# read data from data file into a pandas DataFrame  
 	parasiteData = read_csv("parasite_data.csv", 	# name of the data file
-				sep=",",		# what character separates each column?
-				na_values=["", " "])  	# what values should be considered "blank" values?
+						sep=",",		# what character separates each column?
+							na_values=["", " "])  	# what values should be considered "blank" values?
 				
 And there you have it! It reads in the entire file, and you can do all kinds of neat stuff with the data.
 
