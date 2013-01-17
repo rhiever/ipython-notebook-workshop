@@ -13,7 +13,7 @@ Install EPD into the default directory it suggests.
 
 You now have IPython and most of the libraries you need installed. However, they're mostly older versions, so let's update them real quick.
 
-### `Distribute` library
+### Distribute library
 
 The `Distribute` library is required for the newer version of IPython Notebook.
 
@@ -28,8 +28,6 @@ Open up the Windows Command Prompt and enter the following command: `python dist
 Download the pyreadline library: http://pypi.python.org/packages/any/p/pyreadline/pyreadline-1.7.1.win32.exe#md5=ffe3987562d0891901ebccdd94933a39
 
 Install it to the default install location.
-
-http://pypi.python.org/packages/any/p/pyreadline/pyreadline-1.7.1.win32.exe#md5=ffe3987562d0891901ebccdd94933a39
 
 Install the `readline` library as well by entering the following command into the Command Prompt: `easy_install readline`. If it asks you if you want to run the executable, click Yes.
 
