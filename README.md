@@ -110,8 +110,8 @@ Remember when I had you install the `pandas` library? Here's why: it makes readi
 	
 	# read data from data file into a pandas DataFrame  
 	parasiteData = read_csv("parasite_data.csv", 	# name of the data file
-					sep=",",		# what character separates each column?
-					na_values=["", " "])  	# what values should be considered "blank" values?
+					sep=",",				# what character separates each column?
+					na_values=["", " "])  		# what values should be considered "blank" values?
 				
 And there you have it! It reads in the entire file, and you can do all kinds of neat stuff with the data.
 
