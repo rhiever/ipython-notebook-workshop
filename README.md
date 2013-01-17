@@ -1,4 +1,4 @@
-# Installation Instructions
+# IPython Notebook Installation Instructions
 
 
 ## Windows
