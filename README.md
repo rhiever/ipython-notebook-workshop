@@ -83,7 +83,7 @@ Now you should be ready to enjoy IPython Notebook! Enter the following command i
 
 # Practice Data
 
-I have included a data file with this tutorial titled `parasite_data.csv`, courtesy of <a href="http://luiszaman.com/">Luis Zaman</a>. Please note that this is unpublished data, and is *only meant to be used for the purposes of this workshop*. Email Luis Zaman directly if you want to use it for something else.
+I have included a data file with this tutorial titled `parasite_data.csv`, courtesy of <a href="http://luiszaman.com/">Luis Zaman</a>. Please note that this is unpublished data, and is **only meant to be used for the purposes of this workshop**. Email Luis directly if you want to use it for something else.
 
 The data has 3 columns:
 
