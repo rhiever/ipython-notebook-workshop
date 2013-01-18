@@ -72,7 +72,7 @@ Enter the following commands into the Terminal, one at a time:
 	
 	git clone https://github.com/ipython/ipython.git
 	cd ipython
-	python setupy.py build
+	python setup.py build
 	python setup.py install
 	cd ..
 	rm -r ipython
