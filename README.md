@@ -43,7 +43,7 @@ Now, let's get the latest version of IPython so we have the latest and greatest 
 
 	git clone https://github.com/ipython/ipython.git
 	cd ipython
-	python setupy.py build
+	python setup.py build
 	python setup.py install
 	cd ..
 	rmdir /s ipython
