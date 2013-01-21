@@ -137,4 +137,6 @@ If you need to do something fancier than what pandas offers (and most of us do!)
 
 * <a href="http://scikit-learn.org/stable/">scikit-learn</a>: anything machine learning, including data clustering and principle component analysis.
 
+* <a href="http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html">Rmagic</a>: offers support for all R code. If you prefer to use R, or <a href="http://www.randalolson.com/2013/01/14/filling-in-pythons-gaps-in-statistics-packages-with-rmagic/">need an R function that isn't in Python</a>, you can use Rmagic.
+
 From here on out, you're free to explore the example data (or your own). I plan to hold more workshops in the future focusing more specifically on statistical analysis and plotting in IPython Notebook.
