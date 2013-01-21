@@ -82,6 +82,24 @@ Enter the following commands into the Terminal, one at a time:
 Now you should be ready to enjoy IPython Notebook! Enter the following command in the Terminal to fire it up: `ipython notebook --pylab=inline`
 
 
+# IPython Notebook Tips & Tricks
+
+Here are a handful of tips and tricks that I've come across that are helpful for working with IPython Notebook.
+
+## Automatic backup with Dropbox
+
+Backing up your notebooks is crucial to never losing your research notes. Set up a folder in your Dropbox directory (called, say, "notebooks") and always run IPython Notebook from there. Whenever you save the changes you made to a notebook, those changes are automatically backed up on Dropbox.
+
+## Mac/Linux users: set up an alias for IPython Notebook
+
+Instead of having to change to the right directory then remembering the proper command to start up IPython Notebook, just make an alias! Edit your ~/.profile and add the following:
+
+	# change ~/Dropbox/notebooks/ to whatever directory you are storing your notebooks in. I recommend a Dropbox directory!
+	alias ipn="cd ~/Dropbox/notebooks/; ipython notebook --pylab=inline"
+	
+Now you can just type `ipn` into your command line anywhere, and you'll load IPython Notebook right up!
+
+
 # Practice Statistical Analysis
 
 As a part of this workshop, we're going to do a little statistical analysis on some data to get a feel for what IPython Notebook can do.
