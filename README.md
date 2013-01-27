@@ -48,7 +48,9 @@ Now, let's get the latest version of IPython so we have the latest and greatest 
 
 ### Run IPython Notebook
 
-Now you should be ready to enjoy IPython Notebook! Enter the following command in the Command Prompt to fire it up: `ipython notebook --pylab=inline`
+Now you should be ready to enjoy IPython Notebook! Enter the following command in the Command Prompt to fire it up:
+
+	ipython notebook --pylab=inline
 
 
 
@@ -72,7 +74,9 @@ Enter the following commands into the Terminal, one at a time. If may ask for yo
 
 ### Run IPython Notebook
 
-Now you should be ready to enjoy IPython Notebook! Enter the following command in the Terminal to fire it up: `ipython notebook --pylab=inline`
+Now you should be ready to enjoy IPython Notebook! Enter the following command in the Terminal to fire it up:
+
+	ipython notebook --pylab=inline
 
 
 # IPython Notebook Tips & Tricks
