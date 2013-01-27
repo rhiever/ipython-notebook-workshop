@@ -3,8 +3,6 @@
 
 ## Windows
 
-Make sure you're starting with a clean install. Remove any Python installs you installed previously. Delete the `C:/pythonx.x` folder.
-
 ### Enthought Python Distribution
 
 Download the free version of the Enthought Python Distribution (EPD): http://www.enthought.com/products/epd_free.php
@@ -66,16 +64,11 @@ Install EPD into the default directory it suggests.
 
 You now have IPython and most of the libraries you need installed. However, they're mostly older versions, so let's update them real quick.
 
-Enter the following commands into the Terminal, one at a time:
+Enter the following commands into the Terminal, one at a time. If may ask for your password for the `sudo` command.
 
-	sudo easy_install pandas
-	
-	git clone https://github.com/ipython/ipython.git
-	cd ipython
-	python setup.py build
-	python setup.py install
-	cd ..
-	rm -r ipython
+	sudo enpkg enstaller
+	sudo enpkg ipython
+	sudo enpkg pandas
 
 ### Run IPython Notebook
 
