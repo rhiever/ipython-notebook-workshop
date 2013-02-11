@@ -133,7 +133,7 @@ Remember when I had you install the `pandas` library? Here's why: it makes readi
 	from pandas import *
 	
 	# read data from data file into a pandas DataFrame  
-	parasiteData = read_csv("parasite_data.csv", # name of the data file
+	parasiteData = read_csv("https://raw.github.com/rhiever/ipython-notebook-workshop/master/parasite_data.csv", # name of the data file
 					sep=",", # what character separates each column?
 					na_values=["", " "]) # what values should be considered "blank" values?
 
