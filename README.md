@@ -1,4 +1,4 @@
-# IPython Notebook Installation Instructions
+# IPython Notebook installation instructions
 
 
 ## Windows
@@ -72,7 +72,7 @@ Now you should be ready to enjoy IPython Notebook! Enter the following command i
 	ipython notebook --pylab=inline
 
 
-# IPython Notebook Tips & Tricks
+# IPython Notebook tips & tricks
 
 Here are a handful of tips and tricks that I've come across that are helpful for working with IPython Notebook.
 
@@ -90,7 +90,12 @@ Instead of having to change to the right directory then remembering the proper c
 Now you can just type `ipn` into your command line anywhere, and you'll load IPython Notebook right up!
 
 
-# Practice Statistical Analysis
+# Learn to code Python
+
+If you want to learn how to code in Python, Drs. Bill Punch and Richard Enbody have put together a series of <a href="http://www.cse.msu.edu/~cse231/Videos/">video tutorials</a> covering the core features of the Python language.
+
+
+# Practice statistical analysis
 
 As a part of this workshop, we're going to do a little statistical analysis on some data to get a feel for what IPython Notebook can do.
 
@@ -135,7 +140,7 @@ And there you have it! It reads in the entire file, and you can do all kinds of 
 pandas DataFrames have all kinds of methods built in, including a bunch of <a href="http://pandas.pydata.org/pandas-docs/stable/api.html#api-dataframe-stats">statistical functions</a> and <a href="http://pandas.pydata.org/pandas-docs/stable/api.html#id11">plotting functions</a>.
 
 
-## Statistical analysis
+## Advanced statistical analysis
 
 If you need to do something fancier than what pandas offers (and most of us do!), there's most likely a Python library for that.
 
