@@ -92,6 +92,12 @@ Now you can just type `ipn` into your command line anywhere, and you'll load IPy
 
 <br /><br />
 
+# Learn to mark up text with MarkDown
+
+John Gruber put together a <a href="http://daringfireball.net/projects/markdown/syntax">concise tutorial</a> explaining how all of the MarkDown language works. I recommend referring to that tutorial whenever you want to figure out how to do something in MarkDown.
+
+<br /><br />
+
 # Learn to code in Python
 
 If you want to learn how to code in Python, Drs. Bill Punch and Richard Enbody have put together a series of <a href="http://www.cse.msu.edu/~cse231/Videos/">video tutorials</a> covering the core features of the Python language.
