@@ -3,7 +3,7 @@
 Below is a compilation of installation instructions and links to various materials that will be useful to anyone using IPython Notebook as a research notebook.
 
 
-## Installing IPython Notebook on Windows
+## Windows
 
 Windows users have two options for installing IPython Notebook. <a href="https://github.com/JorySchossau">Jory Schossau</a> has put together <a href="https://github.com/JorySchossau/ipynbez#install-and-use">a single executable</a> that installs everything you need for the latest version of IPython Notebook. Alternatively, follow the instructions below to install IPython Notebook with the Enthought Python Distribution.
 
@@ -42,7 +42,7 @@ Now you should be ready to enjoy IPython Notebook! Enter the following command i
 
 
 
-## Installing IPython Notebook on Mac and Linux
+## Mac and Linux
 
 ### Enthought Python Distribution
 
