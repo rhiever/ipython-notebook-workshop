@@ -11,40 +11,24 @@ Install EPD into the default directory it suggests.
 
 You now have IPython and most of the libraries you need installed. However, they're mostly older versions, so let's update them real quick.
 
-### Distribute library
+### Update IPython
 
-The `Distribute` library is required for the newer version of IPython Notebook.
+Let's get the latest version of IPython so we have the latest and greatest features. Enter the following commands into the Command Prompt, one at a time.
 
-Go to http://python-distribute.org/distribute_setup.py
-
-Right-click and save the file to `C:/Users/your-username/`
-
-Open up the Windows Command Prompt and enter the following command: `python distribute_setup.py`
-
-### pyreadline library
-
-Download the pyreadline library: http://pypi.python.org/packages/any/p/pyreadline/pyreadline-1.7.1.win32.exe#md5=ffe3987562d0891901ebccdd94933a39
-
-Install it to the default install location.
-
-Install the `readline` library as well by entering the following command into the Command Prompt: `easy_install readline`. If it asks you if you want to run the executable, click Yes.
+	enpkg enstaller
+	enpkg ipython
+	
+If it asks you you want to run the executable, click Yes.
 
 ### pandas library
 
 pandas isn't required for IPython Notebook, but it's the best library in Python for handling data.
 
-Enter the following command: `easy_install pandas`. If it asks you you want to run the executable, click Yes.
+Enter the following command into the Command Prompt:
 
-### Update IPython
-
-Now, let's get the latest version of IPython so we have the latest and greatest features. Enter the following commands into the Command Prompt, one at a time.
-
-	git clone https://github.com/ipython/ipython.git
-	cd ipython
-	python setup.py build
-	python setup.py install
-	cd ..
-	rmdir /s ipython
+	enpkg pandas
+	
+If it asks you you want to run the executable, click Yes.
 
 ### Run IPython Notebook
 
@@ -70,6 +54,13 @@ Enter the following commands into the Terminal, one at a time. If may ask for yo
 
 	sudo enpkg enstaller
 	sudo enpkg ipython
+	
+### pandas library
+
+pandas isn't required for IPython Notebook, but it's the best library in Python for handling data.
+
+Enter the following command into the Command Prompt:
+
 	sudo enpkg pandas
 
 ### Run IPython Notebook
