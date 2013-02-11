@@ -3,6 +3,8 @@
 
 ## Windows
 
+Windows users have two options for installing IPython Notebook. <a href="https://github.com/JorySchossau">Jory Schossau</a> has put together <a href="https://github.com/JorySchossau/ipynbez#install-and-use">a single executable</a> that installs everything you need for the latest version of IPython Notebook. Alternatively, follow the instructions below to install IPython Notebook with the Enthought Python Distribution.
+
 ### Enthought Python Distribution
 
 Download the free version of the Enthought Python Distribution (EPD): http://www.enthought.com/products/epd_free.php
