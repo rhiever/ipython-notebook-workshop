@@ -92,7 +92,7 @@ Now you can just type `ipn` into your command line anywhere, and you'll load IPy
 
 <br /><br />
 
-# Learn to code Python
+# Learn to code in Python
 
 If you want to learn how to code in Python, Drs. Bill Punch and Richard Enbody have put together a series of <a href="http://www.cse.msu.edu/~cse231/Videos/">video tutorials</a> covering the core features of the Python language.
 
@@ -156,3 +156,9 @@ If you need to do something fancier than what pandas offers (and most of us do!)
 * <a href="http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html">Rmagic</a>: offers support for all R code. If you prefer to use R, or <a href="http://www.randalolson.com/2013/01/14/filling-in-pythons-gaps-in-statistics-packages-with-rmagic/">need an R function that isn't in Python</a>, you can use Rmagic.
 
 From here on out, you're free to explore the example data (or your own). I plan to hold more workshops in the future focusing more specifically on statistical analysis and plotting in IPython Notebook.
+
+<br /><br />
+
+# More useful lessons for scientists
+
+The folks at Software Carpentry have put together a comprehensive set of <a href="http://software-carpentry.org/4_0/index.html">tutorials</a> teaching all kinds of useful computational tools and skills for scientists.
